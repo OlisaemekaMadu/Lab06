@@ -1,6 +1,6 @@
 /* main.css */
 
-body {font-family: arial;}
+body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 article
 {
@@ -26,6 +26,8 @@ header h1
     padding-left: 0.5em;
 }
 
+  #spacing {margin-block: 60px;}
+
 nav ul
 {
     margin : 0%;
@@ -46,10 +48,15 @@ nav ul li a
     padding: 0.625em 3.5em;
     text-decoration: none;
     color: #000;
-    border-right: 2.5px solid #bababa;
+    border: 2.5px solid #bababa;
+    margin: 0.2em;
 }
 
-img {max-width: 100%;}
+img 
+{
+    max-width: 100%;
+    box-shadow: 5px 5px 5px #000;
+}
 
 #section1, #section2, #section3
 {
