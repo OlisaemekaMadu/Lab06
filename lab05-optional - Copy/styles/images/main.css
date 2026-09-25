@@ -55,7 +55,7 @@ nav ul li a
 img 
 {
     max-width: 100%;
-    box-shadow: 5px 5px 5px #000;
+    box-shadow: 5px 5px 10px #7a789a;
 }
 
 #section1, #section2, #section3
@@ -66,7 +66,14 @@ img
     margin: 1em 1em 1em 1em;
 }
 
-footer {clear: both;}
+footer 
+{
+    clear: both;
+    background-color: #94d4ff;
+    padding: 0.5em 0.5em 0.5em;
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
 
 footer h3
 {
